@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/Logo de dado, gorra y bigote.png">
-    <link rel="apple-touch-icon" href="assets/Logo de dado, gorra y bigote.png">
+    <link class="favicon" rel="icon" type="image/png" sizes="32x32" href="assets/png-blanco.png">
+    <link class="favicon" rel="apple-touch-icon" href="assets/png-blanco.png">
     <meta name="description"
         content="Master Moustache: partidas de rol en Mallorca. Dungeons & Dragons, Vampiro V5 y Warhammer Wrath & Glory.">
 
     <title>Master Moustache | Director de juegos de rol</title>
 
-    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="icon" href="assets/png-blanco.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -23,7 +23,9 @@
         <nav class="nav container">
 
             <a class="brand" href="#inicio">
-                <img src="assets/Logo de dado, gorra y bigote.png" alt="Logo Master Moustache" width="48" height="48">
+                <span class="brand-logo">
+                    <img src="assets/png.png" alt="Logo Master Moustache">
+                </span>
                 <span>MASTER <strong>MOUSTACHE</strong></span>
             </a>
 
@@ -78,7 +80,7 @@
 
             <div class="hero-art">
                 <div class="hero-art-inner">
-                    <img src="assets/Logo de dado, gorra y bigote.png" alt="Logo de Master Moustache">
+                    <img src="assets/png.png" alt="Logo de Master Moustache">
                 </div>
             </div>
 
@@ -321,11 +323,6 @@
 
                 </div>
 
-                <p class="service-note">
-                    📍 Principalmente presencial.
-                    Desplazamientos y partidas online bajo consulta.
-                    Condiciones y presupuestos según cada propuesta.
-                </p>
 
             </div>
 
@@ -333,7 +330,7 @@
 
 
         <!-- GALERÍA -->
-        <section class="section gallery" id="galeria">
+        <!-- <section class="section gallery" id="galeria">
 
             <div class="container">
 
@@ -370,7 +367,7 @@
 
             </div>
 
-        </section>
+        </section> -->
 
 
         <!-- CONTACTO -->
@@ -410,7 +407,9 @@
         <div class="container footer-inner">
 
             <a class="brand" href="#inicio">
-                <img src="assets/Logo de dado, gorra y bigote.png" alt="" width="38" height="38">
+                <span class="brand-logo">
+                    <img src="assets/png.png" alt="Logo Master Moustache">
+                </span>
                 <span>MASTER <strong>MOUSTACHE</strong></span>
             </a>
 
@@ -418,7 +417,7 @@
                 Aventuras, dados y gloriosos desbarajustes.
             </p>
 
-            <a href="#inicio">
+            <a href="#" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;">
                 Volver arriba ↑
             </a>
 
